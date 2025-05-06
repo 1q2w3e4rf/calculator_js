@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calc">
+    <input type="text" id="screen" readonly>
+    <div class="buttons">
+        <button onclick="addToScreen('(')" class="rek">(</button>
+        <button onclick="addToScreen(')')" class="rek">)</button>
+        <button onclick="del()" class="rek"><=</button>
+        <button onclick="zeroScreen()" class="rek">C</button>
+
+        <button onclick="addToScreen('7')">7</button>
+        <button onclick="addToScreen('8')">8</button>
+        <button onclick="addToScreen('9')">9</button>
+        <button onclick="addToScreen('+')" class="rek">+</button>
+
+        <button onclick="addToScreen('4')">4</button>
+        <button onclick="addToScreen('5')">5</button>
+        <button onclick="addToScreen('6')">6</button>
+        <button onclick="addToScreen('-')" class="rek">-</button>
+
+        <button onclick="addToScreen('1')">1</button>
+        <button onclick="addToScreen('2')">2</button>
+        <button onclick="addToScreen('3')">3</button>
+        <button onclick="addToScreen('*')" class="rek">*</button>
+
+        <button onclick="addToScreen('.')">.</button>
+        <button onclick="addToScreen('0')">0</button>
+        <button onclick="calculations()">=</button>
+        <button onclick="addToScreen('/')" class="rek">/</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

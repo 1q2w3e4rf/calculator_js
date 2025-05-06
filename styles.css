@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.calc {
+    width: 220px;
+    border: 2px solid #ddd032;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f0f0f0;
+}
+.rek{
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background: #ddd032;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#screen {
+    width: calc(100% - 10px);
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ddd032;
+    background: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+button {
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff00cc;
+}
